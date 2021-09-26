@@ -12,7 +12,7 @@ function userInput() {
         delete characterNumber;
         var characterNumber = prompt("How many characters would you like in your password?");
     }
-
+// Confirming character types for user.
     var lowercase = confirm("Would you like to include lowercase letters in your password?");
     var uppercase = confirm("Would you like to include uppercase letters in your password?");
     var numeric = confirm("Would you like to include numbers in your password?");
